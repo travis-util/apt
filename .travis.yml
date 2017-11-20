@@ -1,7 +1,7 @@
 addons:
   apt:
     sources:
-    # - sourceline: 'ppa:ubuntu-toolchain-r/test'
-    # - sourceline: 'ppa:gophers/archive' # better use gimme
-    # - sourceline: 'ppa:longsleep/golang-backports' # better use gimme
+    - sourceline: 'ppa:ubuntu-toolchain-r/test'
+    - sourceline: 'ppa:gophers/archive' # better use gimme
+    - sourceline: 'ppa:longsleep/golang-backports' # better use gimme
     packages:
