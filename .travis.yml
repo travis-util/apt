@@ -5,3 +5,5 @@ addons:
     - sourceline: 'ppa:gophers/archive' # better use gimme
     - sourceline: 'ppa:longsleep/golang-backports' # better use gimme
     packages:
+    - python3-venv
+script: true
