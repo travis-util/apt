@@ -5,5 +5,6 @@ addons:
     - sourceline: 'ppa:gophers/archive' # better use gimme
     - sourceline: 'ppa:longsleep/golang-backports' # better use gimme
     packages:
-    - python3-venv
+    # - python3-venv # E: Unable to locate package python3-venv
+    # - snapd
 script: true
