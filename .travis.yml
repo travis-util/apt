@@ -7,5 +7,5 @@ addons:
     packages:
     # - python3-venv # E: Unable to locate package python3-venv
     # - snapd
-script:
-- printenv TRAVIS_APT_OPTS
+script: true
+# - printenv TRAVIS_APT_OPTS
